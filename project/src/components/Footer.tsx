@@ -70,14 +70,14 @@ const Footer = () => {
               onMouseEnter={() => setCursorVariant('text')}
               onMouseLeave={() => setCursorVariant('default')}
             >
-              <span>© 2024 Made with</span>
+              <span>© 2025 Made with</span>
               <Heart size={16} className="text-red-500" />
               <span>by Sreevastha</span>
             </motion.p>
 
             <div className="flex items-center space-x-6">
               <div className="flex space-x-4">
-                {['GitHub', 'LinkedIn', 'Twitter'].map((platform) => (
+                {['GitHub', 'LinkedIn'].map((platform) => (
                   <motion.a
                     key={platform}
                     href="#"
